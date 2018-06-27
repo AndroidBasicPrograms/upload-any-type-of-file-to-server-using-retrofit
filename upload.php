@@ -5,7 +5,7 @@
 	if(move_uploaded_file($_FILES['file']['tmp_name'], $filepath)) {
 		echo json_encode("okk");
 	} else{
-	  	echo json_encode("okkkkkkkkkkkkkkk");
+	  	echo json_encode("no");
 	}
 	
 ?>
